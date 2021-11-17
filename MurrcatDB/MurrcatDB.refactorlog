@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="ced5f5b7-e359-4e1c-ada9-9f9ec3504f18" ChangeDateTime="11/08/2021 21:55:02">
+    <Property Name="ElementName" Value="[dbo].[Cat_Category].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cat_Category]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cat" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9522e325-6881-4a96-a498-a26f853904f4" ChangeDateTime="11/15/2021 09:49:35">
+    <Property Name="ElementName" Value="[dbo].[Cat].[Description ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cat]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2a22df80-7b59-4f48-b3cb-2eed64def22b" ChangeDateTime="11/16/2021 13:00:31">
+    <Property Name="ElementName" Value="[dbo].[Cat].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cat]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description " />
+  </Operation>
+</Operations>
