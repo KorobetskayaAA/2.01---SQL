@@ -6,5 +6,6 @@
     [VotesCount] INT NOT NULL DEFAULT 0, 
     [Price] DECIMAL(12, 2) NOT NULL, 
     [OldPrice] DECIMAL(12, 2) NULL, 
-    [Description ] NTEXT NULL
+    [Description] NTEXT NULL, 
+    [Owner] INT NOT NULL FOREIGN KEY REFERENCES Owner(Id)
 )
